@@ -4,7 +4,7 @@ import { BatteryCharging, Bot, Fingerprint, GlobeLock, PlugZap, ShieldHalf } fro
 
 function FeatureSection() {
   return (
-    <section className="flex flex-col text-center items-center justify-center mb-20 mt-44 gap-10 md:mt-10">
+    <section className="flex flex-col text-center items-center justify-center pb-20 border-b border-neutral-600 mt-44 gap-10 md:mt-10">
       <h1 className="text-paragraph text-center inline-block bg-neutral-900 rounded-full px-5 py-2">
         <span className="bg-gradient-to-r from-orangeColor to-orange2Color text-transparent bg-clip-text">
             FEATURE
