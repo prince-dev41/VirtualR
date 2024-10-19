@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
-import ThreeBackground from './ThreeBackground'
+import ThreeBackground from '../components/ThreeBackground'
 
 function HeroSection() {
   const sectionRef = useRef(null)
@@ -29,7 +29,7 @@ function HeroSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative flex items-center justify-center py-20 overflow-hidden min-h-screen">
+    <section ref={sectionRef} className="relative cursor-pointer flex items-center justify-center py-20 overflow-hidden min-h-screen">
       <ThreeBackground />
       <div className="text-center flex flex-col gap-10 items-center max-w-[900px] px-4 z-10 relative">
         <h1 ref={titleRef} className="text-4xl md:text-6xl">

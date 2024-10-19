@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import PricingItem from './PricingItem';
+import PricingItem from '../components/pricingItem';
 
 gsap.registerPlugin(ScrollTrigger);
 

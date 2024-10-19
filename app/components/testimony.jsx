@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import TestimonyItem from './TestimonyItem';
+import TestimonyItem from '../components/testimonyItem';
 
 gsap.registerPlugin(ScrollTrigger);
 
