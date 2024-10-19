@@ -33,10 +33,10 @@ function Header() {
         <div className={`${isOpen ? 'flex flex-col justify-between p-5 md:hidden absolute top-[60px] left-0 w-full h-[300px] bg-neutral-800' : 'hidden'}`}>
             {/* Les liens de navigation */}
             <div className="flex flex-col text-md gap-5">
-                <a href="/">Features</a>
-                <a href="/">Workflow</a>
-                <a href="/">Pricing</a>
-                <a href="/">Testimonials</a>
+                <a href="#features">Features</a>
+                <a href="#workflow">Workflow</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Testimonials</a>
             </div>
 
             {/* Les boutons */}
