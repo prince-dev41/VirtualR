@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
-import ThreeBackground from '../components/ThreeBackground'
+import ThreeBackground from '../components/threeBackground'
 
 function HeroSection() {
   const sectionRef = useRef(null)
