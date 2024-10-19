@@ -84,7 +84,7 @@ function PricingSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="flex flex-col items-center mt-20 gap-10">
+    <section ref={sectionRef} id="pricing" className="flex flex-col items-center mt-20 gap-10">
       <h1 className="text-6xl">Pricing</h1>
       <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-5">
         {pricingPlans.map((plan, index) => (

@@ -79,7 +79,7 @@ function WorkflowSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="flex flex-col text-center items-center justify-center pb-20 border-b border-neutral-600 mt-20 gap-10">
+    <section ref={sectionRef} id="workflow" className="flex flex-col text-center items-center justify-center pb-20 border-b border-neutral-600 mt-20 gap-10">
       <h1 ref={titleRef} className="md:text-6xl">
         Accelerate your <span className="text-orangeColor bg-gradient-to-r from-orange-500
              to-orange2Color text-transparent bg-clip-text">coding Workflow.</span>

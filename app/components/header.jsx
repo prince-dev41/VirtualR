@@ -17,10 +17,10 @@ function Header() {
 
       {/* Les liens de navigation */}
       <div className="hidden md:flex text-paragraph items-center gap-5">
-        <a href="/">Features</a>
-        <a href="/">Workflow</a>
-        <a href="/">Pricing</a>
-        <a href="/">Testimonials</a>
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
       </div>
 
       {/* Les boutons */}

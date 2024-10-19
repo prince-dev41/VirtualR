@@ -90,7 +90,7 @@ function TestimonySection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="flex flex-col text-center items-center justify-center pb-20 border-b border-neutral-600 gap-10 mt-20">
+    <section ref={sectionRef} id="testimonials" className="flex flex-col text-center items-center justify-center pb-20 border-b border-neutral-600 gap-10 mt-20">
       <h1 className="text-6xl">What people are saying</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

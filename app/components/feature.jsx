@@ -76,7 +76,7 @@ function FeatureSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="flex flex-col text-center items-center justify-center pb-20 border-b border-neutral-600 mt-44 gap-10 md:mt-10">
+    <section ref={sectionRef} id="features" className="flex flex-col text-center items-center justify-center pb-20 border-b border-neutral-600 mt-44 gap-10 md:mt-10">
       <h1 ref={titleRef} className="text-paragraph text-center inline-block bg-neutral-900 rounded-full px-5 py-2">
         <span className="bg-gradient-to-r from-orangeColor to-orange2Color text-transparent bg-clip-text">
             FEATURE
