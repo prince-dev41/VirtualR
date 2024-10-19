@@ -8,7 +8,7 @@ function Header() {
     // Le state pour le menu burger
     const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="flex justify-between items-center h-[60px] sticky z-10 top-0 py-1 px-[1%] backdrop-blur-md border-b border-neutral-600">
+    <nav className="flex justify-between items-center h-[60px] sticky z-50 top-0 py-1 px-[1%] backdrop-blur-md border-b border-neutral-600">
     
       <a href="/" className="logo flex items-center justify-between">
         <Image src={logo} alt="logo" width={50} height={50}/>

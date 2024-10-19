@@ -55,7 +55,7 @@ function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t border-neutral-700">
           <p className="text-sm">
-            © {new Date().getFullYear()} Your Company Name. All rights reserved.
+            © {new Date().getFullYear()} <a href="https://github.com/prince-dev41" target='_blank' className='hover:text-orangeColor transition-colors duration-300'>By Prince Ekpinse</a>. All rights reserved.
           </p>
         </div>
       </div>
